@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="51.794" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Flipkart login feature" name="Login Test_scenario - #1.1" time="26.385">
+<system-out><![CDATA[
+Given Open the browser Chrome...............................................passed
+When Enter the FlipKart URL https://www.flipkart.com/.......................passed
+Then Login page title is Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!.passed
+]]></system-out>
+</testcase>
+<testcase classname="Search the Product" name="Product search - #1.1" time="10.641">
+<system-out><![CDATA[
+Given I want to search OnePlus Mobile 5G....................................passed
+When "OnePlus Mobile 5G" products first page displayed......................passed
+And Fetch for the Lowest "OnePlus Mobile 5G"................................passed
+Then Click on it............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search the Product" name="Add the product to cart" time="14.156">
+<system-out><![CDATA[
+Given User is in product details page and add product to cart...............passed
+And Verify product in cart..................................................passed
+Then Close the bowser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
